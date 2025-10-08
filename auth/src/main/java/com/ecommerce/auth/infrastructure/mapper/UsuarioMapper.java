@@ -11,7 +11,7 @@ public class UsuarioMapper {
         return new Usuario(
                 usuariodata.getId(),
                 usuariodata.getNombre(),
-                usuariodata.getMail(),
+                usuariodata.getEmail(),
                 usuariodata.getPassword(),
                 usuariodata.getRole(),
                 usuariodata.getEdad()
@@ -23,7 +23,7 @@ public class UsuarioMapper {
         return new UsuarioData(
                 usuario.getId(),
                 usuario.getNombre(),
-                usuario.getMail(),
+                usuario.getEmail(),
                 usuario.getPassword(),
                 usuario.getRole(),
                 usuario.getEdad()

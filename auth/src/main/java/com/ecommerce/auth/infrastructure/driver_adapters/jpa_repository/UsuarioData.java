@@ -16,8 +16,8 @@ public class UsuarioData {
         @GeneratedValue(strategy = GenerationType.AUTO)
         private Long id;
         private String nombre;
-        private String mail;
         @Column(length = 20, nullable = false)
+        private String email;
         private String password;
         private String role;
         private Integer edad;
