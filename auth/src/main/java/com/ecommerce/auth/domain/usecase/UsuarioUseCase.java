@@ -85,20 +85,6 @@ public class UsuarioUseCase {
 
     }
 
-    //public Optional<Usuario> buscarUsuarioPorEmail(String email) {
-
-    //return usuarioGateway.buscarUsuarioPorEmail(email);
-    //}
-
-    //public String logear (String email, String password) {
-
-    //return usuarioGateway.logear(email)
-    //.filter(usuario -> encrypterGateway.checkPass(password, usuario.getPassword()))
-    //.map(usuario -> "Usuario encontrado")
-    //.orElse("Credenciales incorrectas");
-
-
-
 
 
 
